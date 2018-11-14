@@ -27,7 +27,7 @@ truesize;
 %% Wavelet Reconstruction (no loss)
 
 im2 = W'*tx;
-figure(3); dispimage(abs(im2)); title ('recon');
+figure(3); imshow(abs(im2),[0 256]); title ('recon');
 truesize;
 
 %% Wavelet Decomposition in the presence of Additive Noise
