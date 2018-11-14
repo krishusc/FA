@@ -15,7 +15,6 @@ imshow(im,[0 256]);
 title('original');
 truesize;
 
-
 %% Wavelet Decomposition
 
 tx = W*im;

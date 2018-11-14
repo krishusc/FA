@@ -39,3 +39,18 @@ for perc=0.5:0.5:10;
     
 	if (perc<2) pause; end
 end
+
+%% QUESTIONS
+%
+%  How would you compute the compression ratio?
+%  Can you plot image quality as a function of compression ratio?
+%  Objective measures?  
+%       NRMSE = normalized-mean-square-error
+%       SSIM = structural similarity index 
+%
+%  Consider other sparsifying transforms (besides this specific Wavelet)
+%  Does this work for all images? 
+%   
+%  Databases:
+%      ImageNet = http://www.image-net.org/ 
+%      Chicago Face Database: https://chicagofaces.org/default/ 
