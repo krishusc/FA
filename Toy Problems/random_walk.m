@@ -6,6 +6,7 @@ timesteps = 1000;
 axismax = 100;
 sdeachstep = 1;
 
+
 % shift at each timestep
 delta = sdeachstep * (randn(timesteps,1) + j*randn(timesteps,1));
 % position is a cumulative sum of shifts

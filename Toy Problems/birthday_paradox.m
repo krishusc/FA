@@ -65,3 +65,7 @@ xlabel('Number of Entries');
 ylabel('Probability of at least one shared entry');
 grid on;
 figure(gcf);
+
+%%  QUESTION
+%
+%  Implement the lottery game of your choice??

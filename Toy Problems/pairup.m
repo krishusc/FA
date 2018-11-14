@@ -43,4 +43,8 @@ for n=1:nump
     students(p(n,1),:),' & ',students(p(n,2),:)]);
 end
 
-
+%% QUESTIONS
+%
+%  How would you draw just 1 name out of the list?
+%  Modify the script to create groups of 3?
+%  Make the script flexible to create groups of size N?

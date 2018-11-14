@@ -17,3 +17,7 @@ end
 
 disp(sprintf('Switching is better %.3f percent of the time',100*switchbetter/numtrials));
 
+%% QUESTIONS
+%
+%  Can you simulate a similar game?  
+%  And test a pen-and-paper solution?
