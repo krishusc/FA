@@ -8,7 +8,7 @@ z = jinc(sqrt(x.^2 + y.^2));  % 2D JINC (blurring function in CT and radial MRI)
 % z = sinc(x).* sinc(y);  % 2D SINC (blurring function in most MRI)
 % z = sqrt(x.^2 + y.^2)<1.5; % 2D PILLBOX (blurring function in optics)
 
-mesh(x,y,z)
+mesh(x,y,z);
 xlabel('x');
 ylabel('y');
 zlabel('f(x,y)');
