@@ -1,5 +1,9 @@
-% plots for talk at ohrid, june 2011
+% plots for talk at ohrid, june 2011, by Miki Lustig
+% minor tweaks by Krishna Nayak
 % demo 1
+
+% Consider a 1D signal that we would like to measure
+% in the presence of noise
 
 % setup rand state and problem parameters
 seedn = 11;

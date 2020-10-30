@@ -1,4 +1,5 @@
-% plots for talk at ohrid, june 2011
+% plots for talk at ohrid, june 2011, by Miki Lustig
+% minor tweaks by Krishna Nayak
 % demo 3
 
 % ----------------------------------

@@ -1,4 +1,5 @@
-% plots for talk at ohrid, june 2011
+% plots for talk at ohrid, june 2011, by Miki Lustig
+% minor tweaks by Krishna Nayak
 % demo 2
 
 seedn = 11;
@@ -10,7 +11,8 @@ n = 128;
 x = [[1:5]/5 zeros(1,n-5)];
 x = x(randperm(n));
 
-% part (2) - uniform and random undersampling
+% part (2) - Fourier domain - uniform and random undersampling
+
 % uniform undersampling, standard aliasing
 disp('** Uniform undersampling of the signal')
 disp('Please hit any key to continue')

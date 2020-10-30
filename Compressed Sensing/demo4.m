@@ -1,3 +1,6 @@
+% Demo 4 by Miki Lustig
+% minor tweaks by Krishna Nayak
+
 % Display the mask and the PDF
 disp('Display the undersampling mask and the PDF')
 disp('Please hit any key to continue'), pause
