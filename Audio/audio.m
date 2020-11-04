@@ -16,10 +16,10 @@ play(recObj);
 rec = getaudiodata(recObj);
 
 %% Load from File
-%[y fs] = audioread('panjabi.mp4',[1 5e4]);
-[y fs] = audioread('narasinh.mp4');
-sound(y,fs);
+[y fs] = audioread('panjabi.mp4',[1 5e4]);
+% [y fs] = audioread('narasinh.mp4');
 rec = y(:,1);
+sound(rec,fs);
 
 %% Plot the waveform and its Spectrogram
 subplot(1,2,1);
